@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Roboto } from 'next/font/google';
-import { HiMenu, HiX } from "react-icons/hi";
+import { HiMenu, HiX } from 'react-icons/hi';
 
 const roboto = Roboto({
   subsets: ['latin'],

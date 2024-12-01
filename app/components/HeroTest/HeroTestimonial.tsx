@@ -1,5 +1,6 @@
-import React from "react";
-import { FaArrowLeft, FaArrowRight, FaStar } from "react-icons/fa";
+import React from 'react';
+import Image from 'next/image';
+import { FaArrowLeft, FaArrowRight, FaStar } from 'react-icons/fa';
 
 const TestimonialSection = () => {
   return (
@@ -27,14 +28,16 @@ const TestimonialSection = () => {
               </div>
               {/* Content */}
               <p className="text-gray-600 mb-6">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.
               </p>
               {/* Profile */}
               <div className="flex items-center">
-                <img
-                  src="img1.png"
+                <Image
+                  src="/img1.png"
                   alt="James Nduku"
                   className="w-12 h-12 rounded-full mr-4"
+                  height={550}
+                  width={550}
                 />
                 <div>
                   <h4 className="font-bold text-gray-800">James Nduku</h4>
@@ -55,14 +58,16 @@ const TestimonialSection = () => {
               </div>
               {/* Content */}
               <p className="text-gray-600 mb-6">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.
               </p>
               {/* Profile */}
               <div className="flex items-center">
-                <img
-                  src="img2.png"
+                <Image
+                  src="/img2.png"
                   alt="Erick Kipkemboi"
                   className="w-12 h-12 rounded-full mr-4"
+                  height={550}
+                  width={550}
                 />
                 <div>
                   <h4 className="font-bold text-gray-800">Erick Kipkemboi</h4>
@@ -83,14 +88,16 @@ const TestimonialSection = () => {
               </div>
               {/* Content */}
               <p className="text-gray-600 mb-6">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.
               </p>
               {/* Profile */}
               <div className="flex items-center">
-                <img
-                  src="img3.png"
+                <Image
+                  src="/img3.png"
                   alt="Stephen Kerubo"
                   className="w-12 h-12 rounded-full mr-4"
+                  height={550}
+                  width={550}
                 />
                 <div>
                   <h4 className="font-bold text-gray-800">Stephen Kerubo</h4>
@@ -102,7 +109,6 @@ const TestimonialSection = () => {
             </div>
           </div>
         </div>
-
 
         <div className="flex justify-between  mt-4  ml-[30px]">
           <div className="flex gap-2  text-left mt-5 text-[#000000]">

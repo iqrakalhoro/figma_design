@@ -1,6 +1,6 @@
 
 import { Roboto } from 'next/font/google';
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 
 

@@ -1,5 +1,6 @@
-import React from "react";
-import { FaLinkedin, FaTwitter, FaDribbble } from "react-icons/fa6";
+import React from 'react';
+import { FaLinkedin, FaTwitter, FaDribbble } from 'react-icons/fa6';
+import Image from 'next/image';
 
 const OurTeam = () => {
    return (
@@ -10,10 +11,12 @@ const OurTeam = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                {/* Profile 1 */}
                <div className="bg-[#F7F7F7] p-6 flex flex-col items-center text-center">
-                  <img
-                     src="Profile1.png"
+                  <Image
+                     src="/Profile1.png"
                      alt="James Nduku"
                      className="w-24 h-24  mb-4"
+                     height={650}
+                     width={650}
                   />
                   <h3 className="text-lg font-semibold">James Nduku</h3>
                   <p className="text-[#000000] text-sm">Marketing Coordinator</p>
@@ -35,10 +38,12 @@ const OurTeam = () => {
 
                {/* Profile2 */}
                <div className="bg-[#F7F7F7] p-6 flex flex-col items-center text-center">
-                  <img
-                     src="Profile2.png"
+                  <Image
+                     src="/Profile2.png"
                      alt="Joseph Munyambu"
                      className="w-24 h-24  mb-4"
+                     height={650}
+                     width={650}
                   />
                   <h3 className="text-lg font-semibold">Joseph Munyambu</h3>
                   <p className="text-[#000000] text-sm">Nursing Assistant</p>
@@ -60,10 +65,12 @@ const OurTeam = () => {
 
                {/* Profile3 */}
                <div className="bg-[#F7F7F7] p-6 flex flex-col items-center text-center">
-                  <img
-                     src="Profile3.png"
+                  <Image
+                     src="/Profile3.png"
                      alt="Joseph Ngumbau"
                      className="w-24 h-24  mb-4"
+                     height={650}
+                     width={650}
                   />
                   <h3 className="text-lg font-semibold">Joseph Ngumbau</h3>
                   <p className="text-[#000000] text-sm">Marketing Coordinator</p>
@@ -85,10 +92,12 @@ const OurTeam = () => {
 
                {/* Profile 4 */}
                <div className="bg-[#F7F7F7] p-6 flex flex-col items-center text-center">
-                  <img
-                     src="Profile4.png"
+                  <Image
+                     src="/Profile4.png"
                      alt="Erick Kipkemboi"
                      className="w-24 h-24  mb-4"
+                     height={650}
+                     width={650}
                   />
                   <h3 className="text-lg font-semibold">Erick Kipkemboi</h3>
                   <p className="text-[#000000] text-sm">Web Designer</p>
@@ -110,10 +119,12 @@ const OurTeam = () => {
 
                {/* Profile5 */}
                <div className="bg-[#F7F7F7] p-6 flex flex-col items-center text-center">
-                  <img
-                     src="Profile5.png"
+                  <Image
+                     src="/Profile5.png"
                      alt="Stephen Kerubo"
                      className="w-24 h-24  mb-4"
+                     height={650}
+                     width={650}
                   />
                   <h3 className="text-lg font-semibold">Stephen Kerubo</h3>
                   <p className="text-[#000000] text-sm">President of Sales</p>
@@ -135,10 +146,12 @@ const OurTeam = () => {
 
                {/* Profile6 */}
                <div className="bg-[#F7F7F7] p-6 flex flex-col items-center text-center">
-                  <img
-                     src="Profile6.png"
+                  <Image
+                     src="/Profile6.png"
                      alt="John Leboo"
                      className="w-24 h-24  mb-4"
+                     height={650}
+                     width={650}
                   />
                   <h3 className="text-lg font-semibold">John Leboo</h3>
                   <p className="text-[#000000] text-sm">Dog Trainer</p>

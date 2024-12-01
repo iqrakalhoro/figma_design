@@ -1,14 +1,14 @@
 import React from 'react';
 import { Roboto } from 'next/font/google';
-import { LiaRandomSolid } from "react-icons/lia";
-import { CiMicrophoneOn } from "react-icons/ci";
-import { CiVolumeHigh } from "react-icons/ci";
-import { CiPen } from "react-icons/ci";
-import { RiLinksFill } from "react-icons/ri";
-import { GoArrowSwitch } from "react-icons/go";
-import { FiBook } from "react-icons/fi";
-import { HiOutlineBookOpen } from "react-icons/hi";
-import { SlBriefcase } from "react-icons/sl";
+import { LiaRandomSolid } from 'react-icons/lia';
+import { CiMicrophoneOn } from 'react-icons/ci';
+import { CiVolumeHigh } from 'react-icons/ci';
+import { CiPen } from 'react-icons/ci';
+import { RiLinksFill } from 'react-icons/ri';
+import { GoArrowSwitch } from 'react-icons/go';
+import { FiBook } from 'react-icons/fi';
+import { HiOutlineBookOpen } from 'react-icons/hi';
+import { SlBriefcase } from 'react-icons/sl';
 
 
 const roboto = Roboto({

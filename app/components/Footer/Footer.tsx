@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -37,7 +38,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-20 lg:gap-40">
           {/* Column 1: Logo */}
           <div className="flex flex-col items-center md:items-start">
-            <img src="Ddsgnr Library.png" alt="" />
+            <Image src="/Ddsgnr Library.png" alt=""
+            height={150}
+            width={150}/>
           </div>
 
           {/* Column 2: Courses */}
